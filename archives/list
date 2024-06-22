@@ -1,0 +1,68 @@
+<div id="move" class="move">
+                    <li><a href="#STOCKOUTS" class="activ" onclick="scrollToElement()">STOCKOUTS</a></li>
+                    <li><a href="#CASH RECOVERY CYCLE" onclick="scrollToElement2()">CASH RECOVERY CYCLE</a></li>
+                    <li><a href="#REVENUE" onclick="scrollToElement3()">REVENUE</a></li>
+                </div>
+
+
+                #pag3 .scrollspy .move {
+                    margin: 20vh 10vh;
+                    padding-left: 15vh;
+                    position: absolute;
+                    width: 40%;
+                    z-index: 999;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    height: 27vh;
+                    justify-content: space-between;
+                }
+                
+                
+                
+                #pag3 .scrollspy .move li a {
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: white;
+                
+                }
+                
+                #pag4 .container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                }
+                
+                #pag4 .container .card {
+                    width: 200px;
+                    height: 300px;
+                    background-color: #f1f1f1;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.5em;
+                    opacity: 0;
+                    transform: translateY(50px);
+                    transition: opacity 0.6s ease, transform 0.6s ease;
+                }
+                
+                #pag4 .container .card.visible {
+                    opacity: 1;
+                    transform: translateY(0);
+                } 
+                
+                #pag3 .scrollspy .move .activ,
+                #pag3 .scrollspy .move li a:hover {
+                    color: #e6715f;
+                    transition: 0.5s;
+                }
+
+
+                <div class="card">Card 1</div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>

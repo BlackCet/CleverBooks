@@ -1,0 +1,63 @@
+
+/* #pag3 .scrollspy .move {
+    margin: 20vh 10vh;
+    padding-left: 15vh;
+    position: absolute;
+    width: 40%;
+    z-index: 999;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 27vh;
+    justify-content: space-between;
+}
+
+
+
+#pag3 .scrollspy .move li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+
+
+
+#pag3 .scrollspy .move .activ,
+#pag3 .scrollspy .move li a:hover {
+    color: #e6715f;
+    transition: 0.5s;
+} */
+
+
+/* section{
+    margin: auto auto;
+    min-height: 33.33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 40px 40px;
+    text-transform: uppercase;
+}
+
+
+section:nth-child(odd) {
+    background-color: grey;
+}
+
+section:nth-child(odd):hover{
+    color: grey;
+    transition: 1s;
+    opacity:0;
+}
+
+section:nth-child(even):hover{
+    color: #151218;
+    transition: 1s;
+    opacity:0;
+    background-color: grey;
+} */

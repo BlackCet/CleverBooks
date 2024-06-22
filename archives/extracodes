@@ -1,0 +1,37 @@
+#pag6 .box:before{
+    content:'';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, #8e63d5, #e6715f, #8e63d5, #e6715f);
+    border-radius: 30px;
+    animation: animate 20s linear infinite;
+}
+
+#pag6 .box:after{
+    content:'';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, #8e63d5, #e6715f, #8e63d5, #e6715f);
+    border-radius: 30px;
+    animation: animate 2s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+style="margin-left: 6vw; margin-right: 6vw;  align-items: center; justify-content: center;"
+
+style=" border-radius: 10%; transition: 0.5s; background-image: none;"
+
+style="color: white;"
